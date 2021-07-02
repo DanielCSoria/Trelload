@@ -1,0 +1,78 @@
+@font-face{
+    font-family: "Nautilus Pompilius" ;
+    src: url('Nautilus.otf');
+    }
+
+
+.myClass {
+    -fx-background-color:rgba(195,181,216,.8);
+    -fx-border-color: rgb(210,169,225);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,.4), 5, 0, 0, 0);
+    -fx-padding: -5;
+
+}
+.myButton{
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 0, 0.0 , 0 , -1 );
+}
+
+
+.labelBox{
+   -fx-padding: 14 5 14 5;
+   }
+
+.transparent{
+    -fx-background-color: transparent;
+}
+
+.cardBody{
+     -fx-background-color:rgba(195,181,216,.8);
+     -fx-font: 16px Cracked;
+     -fx-alignment: center ;
+     -fx-height: 20%;
+     -fx-width: 100%;
+     -fx-padding: 3 0 3 0;
+
+       }
+.columnBody{
+    -fx-font-family: "Nautilus Pompilius";
+    -fx-font-size: 21px;
+    -fx-text-fill:  rgba(0, 0, 0, .8);
+    -fx-alignment: center ;
+    -fx-width: 100%;
+    -fx-padding: 1 0 1 0;
+
+
+}
+.myBoard{
+
+    -fx-background-image: url("b.jpg");
+    -fx-background-repeat: repeat;
+    -fx-background-position: center center;
+
+}
+
+.myColumn{
+   -fx-background-color: rgba(129,212,250,.4);
+   -fx-border-radius: 8 8 8 8;
+   -fx-background-radius: 10 10 10 10;
+   -fx-border-color: rgb(210,169,225);
+   -fx-effect: dropshadow( one-pass-box , rgba(210,169,225,.8) , 0, 0.0 , 0 , 1 );
+   -fx-padding: 10 0 10 0;
+}
+
+
+  .boardTitle {
+          -fx-font-family:"Nautilus Pompilius" ;
+          -fx-font-size: 35px;
+          -fx-text-fill: rgba(0, 0, 0, .5);
+          -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 0, 0.0 , 0 , -1 );
+          -fx-padding: 10 0 10 0;
+
+
+
+
+   }
+
+   .labelClass{
+        -fx-padding: 9 0 9 8;
+   }
